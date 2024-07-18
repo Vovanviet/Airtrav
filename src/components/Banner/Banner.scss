@@ -1,0 +1,98 @@
+.banner {
+  position: relative;
+  padding-left: 135px;
+  height: 650px;
+}
+.banner-left {
+  width: 502px;
+  position: relative;
+  .banner-heading {
+    font-size: 64px;
+    font-weight: 800;
+    &-text--black {
+      color: #353945;
+    }
+    &-text--yellow {
+      color: #f5b318;
+    }
+    .banner-heading-icon svg {
+      padding-left: 10px;
+      display: inline;
+    }
+  }
+  .banner-paragraph {
+    color: #777e90;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700px;
+    padding-right: 47px;
+    margin-top: 30px;
+  }
+  .banner-button {
+    width: 317px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px 8px 44px;
+    margin-top: 48px;
+    border-radius: 31px;
+    box-shadow: -16px 22px 42px rgba($color: #001f4d, $alpha: 0.12);
+    &--text {
+      font-size: 20px;
+      font-weight: 700;
+      color: #23262f;
+    }
+  }
+  .banner-review {
+    margin-top: 70px;
+    &--text {
+      font-size: 16px;
+      color: #777e90;
+    }
+    .banner-rate {
+      margin-top: 10px;
+      display: flex;
+      &--exellent {
+        color: #141416;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 500;
+      }
+      &--left {
+        padding-right: 26px;
+        border-right: 1px solid #e6e8ec;
+      }
+      &--right {
+        padding-left: 14px;
+        .banner-rate-number {
+          color: #3b71fe;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 36px;
+        }
+        .banner-rate-total {
+          color: #777e90;
+          font-size: 12px;
+          font-weight: 500;
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+      &-icon {
+        margin-top: 7px;
+      }
+    }
+  }
+}
+.fly-icon {
+  position: absolute;
+  top: 65%;
+  left: -150px;
+}
+.banner-right {
+  position: absolute;
+  top: -100px;
+  right: 0;
+}

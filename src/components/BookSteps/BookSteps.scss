@@ -1,0 +1,84 @@
+.book-steps-container {
+  display: flex;
+  padding: 69px 135px;
+  justify-content: center;
+  gap: 102px;
+  align-items: center;
+  .create-trip-image {
+    width: 363px;
+    height: 489px;
+  }
+  .create-trip-content {
+    width: 568px;
+    .create-trip-content-main {
+      border-bottom: 1px dashed #777e90;
+      padding-bottom: 26px;
+      .create-trip-content-header {
+        width: 538px;
+        .content-heading {
+          align-items: center;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 60px;
+          letter-spacing: -0.4px;
+          color: #23262f;
+        }
+        .content-paragraph {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          color: #353945;
+          margin-top: 24px;
+        }
+      }
+      .create-trip-steps {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        .steps {
+          display: flex;
+          gap: 20px;
+        }
+      }
+    }
+    .create-trip-slogan {
+      margin-top: 20px;
+      .slogan-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #353945;
+        font-style: italic;
+      }
+      .author-slogan {
+        margin-top: 50px;
+        display: flex;
+        gap: 14px;
+        .happy-man {
+          border-radius: 100%;
+        }
+        .author-info {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 2px;
+          width: 182px;
+          .author-name {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            color: #353945;
+          }
+          .author-company {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            color: #777e90;
+          }
+        }
+      }
+    }
+  }
+}
