@@ -1,7 +1,7 @@
 .banner {
   position: relative;
   padding-left: 135px;
-  height: 650px;
+  height: 545px;
 }
 .banner-left {
   width: 502px;
@@ -24,7 +24,7 @@
     color: #777e90;
     font-size: 18px;
     line-height: 28px;
-    font-weight: 700px;
+    font-weight: 500;
     padding-right: 47px;
     margin-top: 30px;
   }
@@ -53,17 +53,18 @@
     .banner-rate {
       margin-top: 10px;
       display: flex;
-      &--exellent {
-        color: #141416;
-        font-size: 24px;
-        line-height: 36px;
-        font-weight: 500;
-      }
-      &--left {
+
+      &-left {
         padding-right: 26px;
         border-right: 1px solid #e6e8ec;
+        &--excellent {
+          color: #141416;
+          font-size: 24px;
+          line-height: 36px;
+          font-weight: 500;
+        }
       }
-      &--right {
+      &-right {
         padding-left: 14px;
         .banner-rate-number {
           color: #3b71fe;
@@ -91,8 +92,12 @@
   top: 65%;
   left: -150px;
 }
-.banner-right {
+.banner-right img {
   position: absolute;
-  top: -100px;
+  width: 967px;
+  height: 645px;
+  object-position: 0px -100px;
+  top: 0;
   right: 0;
+  z-index: -1;
 }

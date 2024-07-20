@@ -1,0 +1,45 @@
+.trip-plan-container {
+  padding-top: 100px;
+  padding-left: 135px;
+  background-color: rgba($color: #f0e898, $alpha: 0.5);
+  display: flex;
+  gap: 201px;
+}
+.trip-plan-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 529px;
+  padding-top: 65px;
+  .trip-plan-content-heading {
+    color: #141416;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.4px;
+  }
+  .trip-plan-content-paragraph {
+    color: #353945;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  button {
+    display: flex;
+    padding: 9px 29px 8px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    width: 110px;
+    background: #3b71fe;
+  }
+}
+.trip-plan-right {
+  width: 440px;
+  height: 470px;
+}

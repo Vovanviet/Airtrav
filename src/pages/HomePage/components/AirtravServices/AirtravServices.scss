@@ -7,6 +7,32 @@
   width: 100%;
   height: 472px;
   gap: 60px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to left, #355dff57, #3b71fe);
+    width: 236px;
+    height: 236px;
+    border-radius: 100%;
+    transform: translateX(-30%) translateY(-30%);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #355dff57, #3b71fe);
+    width: 236px;
+    height: 236px;
+    border-radius: 100%;
+    transform: translateX(30%) translateY(30%);
+    z-index: -1;
+  }
 }
 .airtrav-services-heading-text {
   font-size: 40px;

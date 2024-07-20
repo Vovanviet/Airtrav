@@ -1,11 +1,10 @@
 import FlyIcon from "src/components/Icons/FlyIcon";
 import WaveIcon from "src/components/Icons/WaveIcon";
-import Button from "../Button/Button";
-import ArrowIcon from "../Icons/ArrowIcon";
-import RateIcon from "../Icons/RateIcon";
-import Manpicture from "../../assets/ManPicture.png";
-
+import Manpicture from "src/assets/ManPicture.png";
 import "./Banner.scss";
+import RateIcon from "src/components/Icons/RateIcon";
+import ArrowIcon from "src/components/Icons/ArrowIcon";
+import Button from "src/components/Button";
 const Banner = () => {
   return (
     <div className="banner">
@@ -28,11 +27,11 @@ const Banner = () => {
         <div className="banner-review">
           <div className="banner-review--text">Our customers say</div>
           <div className="banner-rate">
-            <div className="banner-rate--left">
-              <div className="banner-rate--excellent">Excellent</div>
+            <div className="banner-rate-left">
+              <div className="banner-rate-left--excellent">Excellent</div>
               <RateIcon className="banner-rate-icon"></RateIcon>
             </div>
-            <div className="banner-rate--right">
+            <div className="banner-rate-right">
               <div className="banner-rate-number">4.7</div>
               <div className="banner-rate-total">
                 out of 5 on <span>194</span> reviews

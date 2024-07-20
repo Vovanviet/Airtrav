@@ -1,4 +1,4 @@
-import BrandLogo from "../../assets/BrandLogo.png";
+import BrandLogo from "src/assets/BrandLogo.png";
 import "./PartnerBrand.scss";
 const PartnerBrand = () => {
   return (

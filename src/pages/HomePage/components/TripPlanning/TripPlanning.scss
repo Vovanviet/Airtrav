@@ -1,0 +1,90 @@
+.trip-planning {
+  padding: 70px 282px;
+}
+.trip-planning-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  .heading-text {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.4px;
+    color: #23262f;
+    text-align: center;
+  }
+  .heading-paragraph {
+    max-width: 461px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #353945;
+    text-align: center;
+  }
+}
+.trip-planning-card-list {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  .card-item {
+    max-width: 272px;
+    max-height: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    text-align: center;
+    gap: 16px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    &--green {
+      padding-left: 35px;
+      padding-right: 36px;
+      background-color: rgba($color: #58c27d, $alpha: 0.1);
+    }
+    &--orange {
+      padding-left: 31px;
+      padding-right: 31px;
+      background-color: rgba($color: #fa8f54, $alpha: 0.1);
+    }
+    &--blue {
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: rgba($color: #3b71fe, $alpha: 0.1);
+    }
+    .card-icon {
+      border-radius: 30px;
+      width: 48px;
+      height: 48px;
+      padding: 16px 14px;
+      &--green {
+        background-color: #58c27d;
+      }
+      &--orange {
+        background-color: #fa8f54;
+      }
+      &--blue {
+        background-color: #3b71fe;
+      }
+    }
+    .card-item-content {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      justify-content: center;
+      align-items: center;
+      .card-text {
+        max-height: 78px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 26px;
+      }
+    }
+  }
+}

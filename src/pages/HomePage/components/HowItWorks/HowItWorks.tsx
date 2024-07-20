@@ -1,10 +1,10 @@
 import AvatarIcon from "src/components/Icons/AvatarIcon";
-import "./HowDoesItWork.scss";
+import "./HowItWorks.scss";
 import MapIcon from "src/components/Icons/MapIcon";
 import SendIcon from "src/components/Icons/SendIcon";
 import AirIcon from "src/components/Icons/AirIcon";
 import HowItWork from "src/assets/HowItWork.png";
-const HowDoesItWork = () => {
+const HowItWorks = () => {
   return (
     <div className="how-it-work-container">
       <div className="content-left">
@@ -74,4 +74,4 @@ const HowDoesItWork = () => {
   );
 };
 
-export default HowDoesItWork;
+export default HowItWorks;
