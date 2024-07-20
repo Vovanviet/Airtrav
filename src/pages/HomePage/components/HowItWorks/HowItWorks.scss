@@ -1,6 +1,7 @@
 .how-it-work-container {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   gap: 91px;
   padding: 70px 135px;
 }
@@ -33,6 +34,7 @@
   align-items: flex-start;
   gap: 30px;
   .content-card {
+    margin-top: 40px;
     display: flex;
     gap: 24px;
     align-items: flex-start;

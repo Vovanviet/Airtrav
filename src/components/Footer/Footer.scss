@@ -3,11 +3,13 @@
   .footer-content {
     display: flex;
     gap: 152px;
+    justify-content: center;
     padding-bottom: 71px;
     border-bottom: 1px solid #e6e8ec;
   }
   .footer-bottom {
     display: flex;
+    margin-top: 40px;
     justify-content: space-between;
     .coppyright {
       color: #b1b5c3;
